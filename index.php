@@ -5,6 +5,7 @@
 	<!-- container - wraps whole page -->
 	<div class="container">
 		<?php require_once('includes/navbar.php'); ?>
+    <?php require_once('includes/banner.php'); ?>
 
 		<!-- Page content -->
 		<div class="content">
