@@ -1,29 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Noto+Serif|Tangerine" rel="stylesheet">
-	<!-- Styling for public area -->
-	<link rel="stylesheet" href="static/css/public_styling.css">
-	<meta charset="UTF-8">
+<?php require_once('includes/header.php'); ?>
 	<title>LifeBlog | Home </title>
 </head>
 <body>
 	<!-- container - wraps whole page -->
 	<div class="container">
-		<!-- navbar -->
-		<div class="navbar">
-			<div class="logo_div">
-				<a href="index.php"><h1>LifeBlog</h1></a>
-			</div>
-			<ul>
-			  <li><a class="active" href="index.php">Home</a></li>
-			  <li><a href="#news">News</a></li>
-			  <li><a href="#contact">Contact</a></li>
-			  <li><a href="#about">About</a></li>
-			</ul>
-		</div>
-		<!-- // navbar -->
+		<?php require_once('includes/navbar.php'); ?>
 
 		<!-- Page content -->
 		<div class="content">
@@ -34,9 +15,7 @@
 		<!-- // Page content -->
 
 		<!-- footer -->
-		<div class="footer">
-			<p>MyViewers &copy; <?php echo date('Y'); ?></p>
-		</div>
+		<?php require_once('includes/footer.php'); ?>
 		<!-- // footer -->
 
 	</div>
