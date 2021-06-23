@@ -18,7 +18,7 @@
     <!-- // Page content -->
 
     <!-- footer -->
-    <?php require_once(ROOT_PATH . '/footer.php'); ?>
+    <?php require_once(ROOT_PATH . '/includes/footer.php'); ?>
     <!-- // footer -->
 
   </div>
